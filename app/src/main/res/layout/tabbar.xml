@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:orientation="horizontal"
+    android:weightSum="100"
+    android:showDividers="none">
+
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView1" >
+
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageButton android:id="@+id/espana"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="25"
+                    android:background="#229329"
+                    android:src="@drawable/ic_spain"/>
+
+
+
+                <ImageButton android:id="@+id/english"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="25"
+                    android:background="#229329"
+                    android:src="@drawable/ic_bandera_inglesa"/>
+
+                <ImageButton android:id="@+id/german"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="25"
+                    android:background="#229329"
+                    android:src="@drawable/ic_bandera_alemania"/>
+
+                <ImageButton android:id="@+id/francia"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="25"
+                    android:background="#229329"
+                    android:src="@drawable/ic_bandera_francia"/>
+
+                <ImageButton android:id="@+id/italia"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="25"
+                    android:background="#229329"
+                    android:src="@drawable/ic_bandiera_italiana_campionato"/>
+
+                <ImageButton android:id="@+id/portugal"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="25"
+                    android:background="#229329"
+                    android:src="@drawable/ic_bandera_portugal_circular"/>
+
+                <ImageButton android:id="@+id/holanda"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="25"
+                    android:background="#229329"
+                    android:src="@drawable/ic_netherlands"/>
+
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+
+</LinearLayout>

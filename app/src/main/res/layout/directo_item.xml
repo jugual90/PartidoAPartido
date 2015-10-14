@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/ivEscudo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_vertical"
+        android:src="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        android:background="#f2eb9d"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tvEquipo1"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="Sevilla"
+            android:textSize="11dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="10dp"
+            android:background="#f2eb9d">
+
+            <TextView
+                android:id="@+id/tvCompetitionName"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:text=" Liga bbva"
+                android:textSize="15dp"
+                android:textColor="#45680c"
+                android:textColorHighlight="#aced44"
+                android:background="#aced44"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content"
+                    android:text="Min"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                <TextView
+                    android:id="@+id/tvDosPuntos"
+                    android:layout_width="5dp"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+                <TextView
+                    android:id="@+id/tvLiveMinute"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#c09"
+                    android:text="45"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            </LinearLayout>
+
+
+
+
+            <TextView
+                android:id="@+id/tvResultado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" 2-1"
+                android:textSize="22dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tvEquipo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:text="Napoles"
+            android:textSize="11dp"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivEscudo2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="3dp"
+        android:layout_gravity="center_vertical"
+        android:src="@mipmap/ic_launcher" />
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="action_bar">#c00</color>
+    <color name="primary">#229329</color>229329
+    <color name="statusbar">#0b5b11</color>
+    <color name="letrainfo">#000</color>
+    <color name="tabsScrollColor">#fff</color>
+    <color name="altaFichaje">#37FD33</color>
+    <color name="bajaFichaje">#FD4B33</color>
+    <color name="rumorFichaje">#E48BFD</color>
+
+
+
+</resources>
